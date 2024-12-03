@@ -14,3 +14,13 @@ function mileToKm(miles) {
 }
 const kilometer = mileToKm(69);
 console.log(kilometer);
+
+function isLeapYear(year) {
+  if (year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+let leapYear = isLeapYear(2032);
+console.log(leapYear);
