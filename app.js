@@ -46,7 +46,7 @@ function odds(numbers) {
 
 const oddAvg = odds(numbers);
 console.log(parseInt(oddAvg));
-*/
+
 const firends = ["John", "Smith", "Steven", "Bob", "Micheal", "John", "Smith"];
 
 function noDuplicate(arr) {
@@ -74,3 +74,21 @@ function uniqueNumbers(arr) {
 }
 const newNums = uniqueNumbers(numbers);
 console.log(newNums);
+*/
+console.log(Math.round(4.4698));
+console.log(Math.ceil(4.125));
+console.log(Math.floor(3.125));
+console.log(Math.trunc(9.999999));
+console.log(Math.sign(10));
+console.log(Math.pow(2, 3));
+console.log(Math.pow(30, 99));
+console.log(Math.sqrt(64));
+console.log(Math.sqrt(9));
+console.log(Math.abs(5, 15));
+console.log(Math.abs(-55.88));
+console.log(Math.min(10, 45, 87, 5, 9, 1548, 258, 2));
+console.log(Math.max(10, 45, 87, 5, 9, 1548, 258, 2));
+console.log(Math.random() * 20);
+const randomNum = Math.random() * 100;
+const randomInt = Math.round(randomNum);
+console.log(randomInt);
