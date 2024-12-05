@@ -76,6 +76,7 @@ const newNums = uniqueNumbers(numbers);
 console.log(newNums);
 */
 console.log(Math.round(4.4698));
+console.log(Math.round(458.56));
 console.log(Math.ceil(4.125));
 console.log(Math.floor(3.125));
 console.log(Math.trunc(9.999999));
