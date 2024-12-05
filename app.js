@@ -1,3 +1,4 @@
+/*
 function inchToFeet(inch) {
   let feet = inch / 12;
   feet = parseInt(feet);
@@ -45,3 +46,31 @@ function odds(numbers) {
 
 const oddAvg = odds(numbers);
 console.log(parseInt(oddAvg));
+*/
+const firends = ["John", "Smith", "Steven", "Bob", "Micheal", "John", "Smith"];
+
+function noDuplicate(arr) {
+  const unique = [];
+  for (const friend of arr) {
+    if (unique.includes(friend) === false) {
+      unique.push(friend);
+    }
+  }
+  return unique;
+}
+const uniqueArr = noDuplicate(firends);
+console.log(uniqueArr);
+
+const numbers = [10, 54, 65, 87, 36, 98, 65, 14, 78, 65, 54];
+function uniqueNumbers(arr) {
+  const UniqueNums = [];
+  for (let i = 0; i < arr.length - 1; i++) {
+    let newArr = arr[i];
+    if (UniqueNums.includes(newArr) === false) {
+      UniqueNums.push(newArr);
+    }
+  }
+  return UniqueNums;
+}
+const newNums = uniqueNumbers(numbers);
+console.log(newNums);
